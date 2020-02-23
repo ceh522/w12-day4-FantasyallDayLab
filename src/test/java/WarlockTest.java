@@ -1,5 +1,7 @@
 import items.AttackingItem;
+import items.DefenceItem;
 import items.Spells.Fireball;
+import items.Spells.Invisibility;
 import items.mythicalcreatures.Dragon;
 import items.mythicalcreatures.MythicalCreature;
 import org.junit.Before;
@@ -18,6 +20,7 @@ public class WarlockTest {
     Player warlock;
     Player knight;
     AttackingItem fireball;
+    DefenceItem invisibility;
     MythicalCreature dragon;
 
     @Before
@@ -25,7 +28,8 @@ public class WarlockTest {
         warlock = new Warlock(100, "Alex", 2, 4);
         knight = new Knight(150, "Stephen", 3, 1);
         fireball = new Fireball("Fireball", 6);
-        dragon = new Dragon("Harrison", 2);
+        invisibility = new Invisibility("Invisibility Cloak", 3);
+        dragon = new Dragon("Humphrey", 4);
     }
 
     @Test
@@ -35,9 +39,20 @@ public class WarlockTest {
     }
 
     @Test
+    public void canBoostHealth() {
+        assertEquals(200, ((Warlock)warlock).boostHealth());
+    }
+
+    @Test
     public void canSelectAttackingItem(){
         warlock.selectAttackingItem(fireball);
         assertEquals(fireball, warlock.getHeldAttackingItem());
+    }
+
+    @Test
+    public void canSelectDefenceItem(){
+        warlock.selectDefenceItem(invisibility);
+        assertEquals(invisibility, warlock.getDefenceItem());
     }
 
     @Test
@@ -49,11 +64,11 @@ public class WarlockTest {
     @Test
     public void defenceRatingIncreasesWhenMythicalCreatureSet(){
         ((Caster) warlock).setMythicalCreature(dragon);
-        assertEquals(8, warlock.getDefenceRating());
+        assertEquals(16, warlock.getDefenceRating());
     }
 
     @Test
-    public void canReduceDefenseIfOpponentsDefenceRatingIsMoreThanAttackersAttack(){    Player dwarf = new Dwarf(11, "Kirkwood", 2, 3);
+    public void canReduceDefenseIfOpponentsDefenceRatingIsMoreThanAttackersAttack(){    Player dwarf = new Dwarf(11, "Ralph", 2, 3);
     warlock.attack(dwarf);
     assertEquals(2, dwarf.getDefenceRating());
     assertEquals(11, dwarf.getHealthPoints());

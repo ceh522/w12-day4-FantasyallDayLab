@@ -13,6 +13,7 @@ public class Warlock extends Caster {
         super.attack(opposingPlayer);
     }
 
-
-
+    public int boostHealth() {
+       return this.getHealthPoints() * 2;
+    }
 }

@@ -2,12 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2799f2e-197d-4f9a-b441-dc148d0143cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/DefenceItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/HealingItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/Spells/Invisibility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/TreasureItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/armour/Shield.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/healingItems/Herbs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/healingItems/Potion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/mythicalcreatures/Banshee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/treasures/Gold.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/items/treasures/Jewels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BarbarianTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ClericTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KnightTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WizardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FantasyAllDayLab.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Cleric.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/casters/Warlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/casters/Wizard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/fighters/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WarlockTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Warlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/casters/Warlock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/casters/Wizard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/casters/Wizard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Barbarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/fighters/Barbarian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/fighters/Dwarf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/players/fighters/Knight.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/fighters/Knight.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WarlockTest.class" afterDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,18 +78,71 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager">
-    <configuration name="All in FantasyAllDayLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ClericTest">
+    <configuration name="ClericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAllDayLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="ClericTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DwarfTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAllDayLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DwarfTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAllDayLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="KnightTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAllDayLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WizardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAllDayLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WizardTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in FantasyAllDayLab" />
+        <item itemvalue="JUnit.ClericTest" />
+        <item itemvalue="JUnit.WarlockTest" />
+        <item itemvalue="JUnit.KnightTest" />
+        <item itemvalue="JUnit.WizardTest" />
+        <item itemvalue="JUnit.DwarfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -76,6 +158,17 @@
       <updated>1582199439846</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="609" y="157" key="#com.intellij.ide.util.MemberChooser" timestamp="1582212379020">
