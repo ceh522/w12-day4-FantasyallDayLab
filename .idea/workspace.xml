@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2799f2e-197d-4f9a-b441-dc148d0143cd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Dungeon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/FightingArena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rooms/Room.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DungeonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FightingArenaTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DungeonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DungeonTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FightingArenaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FightingArenaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/DungeonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/DungeonTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +61,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DungeonTest">
+  <component name="RunManager" selected="JUnit.All in FantasyAllDayLab">
+    <configuration name="All in FantasyAllDayLab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FantasyAllDayLab" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ClericTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAllDayLab" />
       <option name="PACKAGE_NAME" value="" />
@@ -94,19 +98,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FightingArenaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="FantasyAllDayLab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="KnightTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WarlockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FantasyAllDayLab" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WarlockTest" />
+      <option name="MAIN_CLASS_NAME" value="FightingArenaTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in FantasyAllDayLab" />
+        <item itemvalue="JUnit.FightingArenaTest" />
         <item itemvalue="JUnit.DungeonTest" />
         <item itemvalue="JUnit.DungeonTest.wizardHasEnoughAttackForceToBlastHoleInDungeonAndLeaveRoomWithTreasure" />
         <item itemvalue="JUnit.ClericTest" />
-        <item itemvalue="JUnit.WarlockTest" />
-        <item itemvalue="JUnit.KnightTest" />
       </list>
     </recent_temporary>
   </component>

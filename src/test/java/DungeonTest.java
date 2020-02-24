@@ -49,7 +49,7 @@ public class DungeonTest {
     @Test
     public void wizardHasEnoughAttackForceToBlastHoleInDungeonAndLeaveRoomWithTreasure() {
         if (dungeon.getAttackForceNeededToLeaveRoom() <= wizard.calculateTotalAttackValue()) {
-            wizard.addTreasureItemToCollection(gold);
+            wizard.addTreasureItemToCollection(dungeon.getTreasureItem());
             dungeon.removeTreasureFromRoom();
             dungeon.removePlayerFromRoom(wizard);
             fightingArena.addPlayerToRoom(wizard);
