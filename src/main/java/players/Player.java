@@ -6,6 +6,7 @@ import items.TreasureItem;
 import items.weapons.Unarmed;
 
 import java.util.ArrayList;
+import java.util.logging.StreamHandler;
 
 public abstract class Player implements Attacking {
 
@@ -15,7 +16,7 @@ public abstract class Player implements Attacking {
     protected int defenceRating;
     protected AttackingItem heldAttackingItem;
     protected DefenceItem defenceItem;
-    protected ArrayList<TreasureItem> collectionOfTreasureItem;
+    protected ArrayList<TreasureItem> collectionOfTreasure;
 
     public Player(int healthPoints, String name, int attackRating, int defenceRating) {
         this.healthPoints = healthPoints;
@@ -24,7 +25,7 @@ public abstract class Player implements Attacking {
         this.defenceRating = defenceRating;
         this.heldAttackingItem = new Unarmed("unarmed", 1);
         this.defenceItem = null;
-        this.collectionOfTreasureItem = new ArrayList<TreasureItem>();
+        this.collectionOfTreasure = new ArrayList<TreasureItem>();
     }
 
     public AttackingItem getHeldAttackingItem() {
@@ -45,6 +46,18 @@ public abstract class Player implements Attacking {
         return healthPoints;
     }
 
+    public ArrayList<TreasureItem> getCollectionOfTreasure(){
+        return collectionOfTreasure;
+    }
+
+    public void addTreasureItemToCollection(TreasureItem treasureItem) {
+       collectionOfTreasure.add(treasureItem);
+    };
+
+    public int checkTreasureAddedToCollection() {
+        return collectionOfTreasure.size();
+    }
+
     public void selectAttackingItem(AttackingItem heldAttackingItem) {
         this.heldAttackingItem = heldAttackingItem;
     }
@@ -54,7 +67,7 @@ public abstract class Player implements Attacking {
     }
 
     public ArrayList<TreasureItem> getCollectionOfTreasureItem() {
-        return collectionOfTreasureItem;
+        return collectionOfTreasure;
     }
 
     public int calculateTotalAttackValue() {
